@@ -17,3 +17,4 @@ ALTER TABLE Band ALTER COLUMN BandId SET DEFAULT nextval('Band_BandId_seq');
 CREATE INDEX Band_BandId_index  ON Band(BandId);
 
 CREATE INDEX Band_BandName_index  ON Band(BandName);
+ALTER TABLE Band ADD CONSTRAINT  FOREIGN KEY () REFERENCES performance ();

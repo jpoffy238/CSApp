@@ -8,7 +8,8 @@ CREATE TABLE performance (
   performanceId Integer NOT NULL ,
   bandId Integer NOT NULL ,
   dateofPerformance date NOT NULL ,
-  notes String
+  notes String,
+  venue character varying 128 NOT NULL 
 );
 CREATE SEQUENCE performance_performanceId_seq START 1 INCREMENT 1 ;
 ALTER TABLE performance ALTER COLUMN performanceId SET NOT 0;

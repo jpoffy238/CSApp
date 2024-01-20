@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI xmi.version="1.2" timestamp="2024-01-19T12:15:30" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI xmi.version="1.2" timestamp="2024-01-19T18:55:26" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller 2.32.3 http://umbrello.kde.org</XMI.exporter>
@@ -66,6 +66,8 @@
         <UML:DataType isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="upgGptf0p0mzF" name="timestamp with time zone" namespace="Datatypes" visibility="public"/>
        </UML:Namespace.ownedElement>
       </UML:Package>
+      <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uIvYigMULXRlD" name="Sting" namespace="Logical_View" visibility="public"/>
+      <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uAToqilwoTwJn" name="Text" namespace="Logical_View" visibility="public"/>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="101">
@@ -107,13 +109,14 @@
         <UML:AssociationEnd isSpecification="false" xmi.id="ukrvmWo0SGAjX" name="" visibility="public" type="uOVwuBlZTRzET" aggregation="none" isNavigable="true" relationship="true" visibility="public" changeability="changeable"/>
        </UML:Association.connection>
       </UML:Association>
-      <UML:Entity isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="udjILLkqNUGz5" name="Songs" namespace="Entity_Relationship_Model" visibility="public">
+      <UML:Entity isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="udjILLkqNUGz5" name="Song" namespace="Entity_Relationship_Model" visibility="public">
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uFZXaeCADfAMR" name="BandId" namespace="udjILLkqNUGz5" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="0" allow_null="0"/>
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uwOjZboxPcg3V" name="songid" namespace="udjILLkqNUGz5" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="1" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uoWQE5Tzh6Q9O" name="song_name" namespace="udjILLkqNUGz5" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="0" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uvAKNVWggkalt" name="KeySignature" namespace="udjILLkqNUGz5" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u9NsID0mwFkYl" name="time_Signature" namespace="udjILLkqNUGz5" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uChsUO480WGMK" name="Artist" namespace="udjILLkqNUGz5" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uoWQE5Tzh6Q9O" name="song_name" namespace="udjILLkqNUGz5" visibility="private" type="uyCFLBDeXmVKj" initialValue="" dbindex_type="1102" values="128" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uvAKNVWggkalt" name="KeySignature" namespace="udjILLkqNUGz5" visibility="private" type="uyCFLBDeXmVKj" initialValue="" dbindex_type="1100" values="10" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u9NsID0mwFkYl" name="time_Signature" namespace="udjILLkqNUGz5" visibility="private" type="uyCFLBDeXmVKj" initialValue="" dbindex_type="1100" values="10" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uChsUO480WGMK" name="Artist" namespace="udjILLkqNUGz5" visibility="private" type="uyCFLBDeXmVKj" initialValue="" dbindex_type="1100" values="" attributes="50" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uYXkNj49FJAlw" name="DocLink" namespace="udjILLkqNUGz5" visibility="private" type="uyCFLBDeXmVKj" initialValue="" dbindex_type="1100" values="512" attributes="" auto_increment="0" allow_null="0"/>
       </UML:Entity>
       <UML:Association isSpecification="false" xmi.id="ubElFOSl5Ct84" name="MasterSongList" namespace="Entity_Relationship_Model" visibility="public">
        <UML:Association.connection>
@@ -126,6 +129,7 @@
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uY8yrv1ojgkOx" name="bandId" namespace="u4m7hrjTm6FPT" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="0" allow_null="0"/>
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uwZp005L8qNZ2" name="dateofPerformance" namespace="u4m7hrjTm6FPT" visibility="private" type="uMR4yhZjdbJKt" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="usiWiWkNyhfyf" name="notes" namespace="u4m7hrjTm6FPT" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="1"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="urTJtlS2Ke504" name="venue" namespace="u4m7hrjTm6FPT" visibility="private" type="uyCFLBDeXmVKj" initialValue="" dbindex_type="1100" values="" attributes="128" auto_increment="0" allow_null="0"/>
       </UML:Entity>
       <UML:Association isSpecification="false" xmi.id="u6Knr6A9dliZK" name="" namespace="Entity_Relationship_Model" visibility="public">
        <UML:Association.connection>
@@ -140,8 +144,13 @@
        </UML:Association.connection>
       </UML:Association>
       <UML:Entity isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uqXE4flX6etdT" name="setlist" namespace="Entity_Relationship_Model" visibility="public">
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uWLadZWsLPeH9" name="setlistid" namespace="uqXE4flX6etdT" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="1" allow_null="0"/>
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uFJGa5dhjcwU5" name="performanceId" namespace="uqXE4flX6etdT" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="0" allow_null="0"/>
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uCeLbH0J149IG" name="Songid" namespace="uqXE4flX6etdT" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u8I3Wk8RzL0eO" name="htmllink" namespace="uqXE4flX6etdT" visibility="private" type="uIvYigMULXRlD" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uK2nowBiclb2k" name="notes" namespace="uqXE4flX6etdT" visibility="private" type="uAToqilwoTwJn" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uzs4nx7C6X1yA" name="Image" namespace="uqXE4flX6etdT" visibility="private" type="u4E1yVE8cP5MB" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
+       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u4n2wDpZMQTo2" name="order" namespace="uqXE4flX6etdT" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
       </UML:Entity>
       <UML:Association isSpecification="false" xmi.id="uVRPqbXVSDtHP" name="" namespace="Entity_Relationship_Model" visibility="public">
        <UML:Association.connection>
@@ -155,16 +164,17 @@
         <UML:AssociationEnd isSpecification="false" xmi.id="uqn1PUQ8O0hDZ" name="" visibility="public" type="uqXE4flX6etdT" aggregation="none" isNavigable="true" relationship="true" visibility="public" changeability="changeable"/>
        </UML:Association.connection>
       </UML:Association>
+      <UML:Entity isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="ue1zhjQvnMDAD" name="seq" namespace="Entity_Relationship_Model" visibility="public"/>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="101">
-       <diagram xmi.id="uJ6uCQWaoGmIb" name="CSApp" type="9" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" griddotcolor="#f7f5f3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="86.9565" canvasheight="404.15" canvaswidth="791.65" isopen="1">
+       <diagram xmi.id="uJ6uCQWaoGmIb" name="CSApp" type="9" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" griddotcolor="#f7f5f3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="152.087" canvasheight="457.65" canvaswidth="791.65" isopen="1">
         <widgets>
          <entitywidget xmi.id="umzDUNxwzmDYn" localid="uWlVToSEvP1tA" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1205.1" y="-750.3" width="88" height="100" isinstance="0" showstereotype="2" showattsigs="0"/>
          <entitywidget xmi.id="uOVwuBlZTRzET" localid="uetJr7gFMmzCJ" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-765.1" y="-628.75" width="79" height="119" isinstance="0" showstereotype="2" showattsigs="0"/>
-         <entitywidget xmi.id="udjILLkqNUGz5" localid="u6JPKTwpkU3SU" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1133.9" y="-484.15" width="113" height="138" isinstance="0" showstereotype="2" showattsigs="0"/>
-         <entitywidget xmi.id="uqXE4flX6etdT" localid="uofr7G4mnbKeS" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1473.15" y="-449.65" width="113" height="62" isinstance="0" showstereotype="2" showattsigs="0"/>
-         <entitywidget xmi.id="u4m7hrjTm6FPT" localid="uvVtkf6r3aLUH" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1477.75" y="-621" width="142" height="100" isinstance="0" showstereotype="2" showattsigs="0"/>
+         <entitywidget xmi.id="udjILLkqNUGz5" localid="u6JPKTwpkU3SU" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1133.9" y="-484.15" width="113" height="157" isinstance="0" showstereotype="2" showattsigs="0"/>
+         <entitywidget xmi.id="uqXE4flX6etdT" localid="uofr7G4mnbKeS" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1473.15" y="-449.65" width="113" height="157" isinstance="0" showstereotype="2" showattsigs="0"/>
+         <entitywidget xmi.id="u4m7hrjTm6FPT" localid="uvVtkf6r3aLUH" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" x="-1477.75" y="-621" width="142" height="119" isinstance="0" showstereotype="2" showattsigs="0"/>
         </widgets>
         <messages/>
         <associations>
@@ -190,7 +200,7 @@
          </assocwidget>
          <assocwidget xmi.id="uVRPqbXVSDtHP" localid="utqZC1Nb1h3SY" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" autoresize="1" seqnum="" xmi.id="uVRPqbXVSDtHP" type="519" widgetaid="u4m7hrjTm6FPT" widgetbid="uqXE4flX6etdT" indexa="1" totalcounta="2" indexb="1" totalcountb="2">
           <linepath layout="Direct">
-           <startpoint startx="-1419.1" starty="-521"/>
+           <startpoint startx="-1419.1" starty="-502"/>
            <endpoint endx="-1419.1" endy="-449.65"/>
           </linepath>
          </assocwidget>
@@ -209,7 +219,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uJ6uCQWaoGmIb" documentation="" uniqueid="uqn1PUQ8O0hDZ"/>
+  <docsettings viewid="uJ6uCQWaoGmIb" documentation="" uniqueid="uWLadZWsLPeH9"/>
   <listview>
    <listitem id="Views" type="800" open="1">
     <listitem id="Component_View" type="821" open="1"/>
@@ -227,14 +237,22 @@
       <listitem id="uwZp005L8qNZ2" type="833" open="0"/>
       <listitem id="usiWiWkNyhfyf" type="833" open="0"/>
       <listitem id="usUynZyprlshk" type="833" open="0"/>
+      <listitem id="urTJtlS2Ke504" type="833" open="0"/>
      </listitem>
+     <listitem id="ue1zhjQvnMDAD" type="832" open="1"/>
      <listitem id="uqXE4flX6etdT" type="832" open="1">
+      <listitem id="u8I3Wk8RzL0eO" type="833" open="0"/>
+      <listitem id="uzs4nx7C6X1yA" type="833" open="0"/>
+      <listitem id="uK2nowBiclb2k" type="833" open="0"/>
+      <listitem id="u4n2wDpZMQTo2" type="833" open="0"/>
       <listitem id="uFJGa5dhjcwU5" type="833" open="0"/>
+      <listitem id="uWLadZWsLPeH9" type="833" open="0"/>
       <listitem id="uCeLbH0J149IG" type="833" open="0"/>
      </listitem>
      <listitem id="udjILLkqNUGz5" type="832" open="1">
       <listitem id="uChsUO480WGMK" type="833" open="0"/>
       <listitem id="uFZXaeCADfAMR" type="833" open="0"/>
+      <listitem id="uYXkNj49FJAlw" type="833" open="0"/>
       <listitem id="uvAKNVWggkalt" type="833" open="0"/>
       <listitem id="uoWQE5Tzh6Q9O" type="833" open="0"/>
       <listitem id="uwOjZboxPcg3V" type="833" open="0"/>
@@ -284,6 +302,8 @@
       <listitem id="upgGptf0p0mzF" type="829" open="1"/>
       <listitem id="uaklar1VI98cH" type="829" open="1"/>
      </listitem>
+     <listitem id="uIvYigMULXRlD" type="813" open="1"/>
+     <listitem id="uAToqilwoTwJn" type="813" open="1"/>
     </listitem>
     <listitem id="Use_Case_View" type="802" open="1"/>
    </listitem>

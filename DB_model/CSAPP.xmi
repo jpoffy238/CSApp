@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI xmi.version="1.2" timestamp="2024-01-19T18:55:26" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI xmi.version="1.2" timestamp="2024-01-19T19:08:22" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller 2.32.3 http://umbrello.kde.org</XMI.exporter>
@@ -68,6 +68,9 @@
       </UML:Package>
       <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uIvYigMULXRlD" name="Sting" namespace="Logical_View" visibility="public"/>
       <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uAToqilwoTwJn" name="Text" namespace="Logical_View" visibility="public"/>
+      <UML:Package isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u2u2BfmtiggRF" name="csapp" namespace="Logical_View" visibility="public">
+       <UML:Namespace.ownedElement/>
+      </UML:Package>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="101">
@@ -90,12 +93,6 @@
     </UML:Model>
     <UML:Model isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model" namespace="m1" visibility="public">
      <UML:Namespace.ownedElement>
-      <UML:Entity isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="umzDUNxwzmDYn" name="Band" namespace="Entity_Relationship_Model" visibility="public">
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="u25FBpGpUm754" name="BandId" namespace="umzDUNxwzmDYn" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="unsigned" auto_increment="1" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="ulUwdVkw2ruCK" name="BandName" namespace="umzDUNxwzmDYn" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="0" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uK6KMF9yqE03i" name="License" namespace="umzDUNxwzmDYn" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
-       <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uzNQMQbg37a4G" name="Active" namespace="umzDUNxwzmDYn" visibility="private" type="uvpD7bo7IlcV9" initialValue="True" dbindex_type="1100" values="" attributes="" auto_increment="0" allow_null="0"/>
-      </UML:Entity>
       <UML:Entity isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uOVwuBlZTRzET" name="Users" namespace="Entity_Relationship_Model" visibility="public">
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uLuCEB3AeCSNT" name="UserId" namespace="uOVwuBlZTRzET" visibility="private" type="ueHOVGSSXnUa7" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="1" allow_null="0"/>
        <UML:EntityAttribute isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uv71012SxtTuq" name="useremail" namespace="uOVwuBlZTRzET" visibility="private" type="ukHLoSZXL7x33" initialValue="" dbindex_type="1102" values="" attributes="" auto_increment="0" allow_null="0"/>
@@ -219,7 +216,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uJ6uCQWaoGmIb" documentation="" uniqueid="uWLadZWsLPeH9"/>
+  <docsettings viewid="uJ6uCQWaoGmIb" documentation="" uniqueid="u2u2BfmtiggRF"/>
   <listview>
    <listitem id="Views" type="800" open="1">
     <listitem id="Component_View" type="821" open="1"/>
@@ -268,6 +265,7 @@
     </listitem>
     <listitem id="Logical_View" type="801" open="1">
      <listitem id="u8sXxxyQhEQ2p" type="807" label="class diagram" open="0"/>
+     <listitem id="u2u2BfmtiggRF" type="818" open="1"/>
      <listitem id="Datatypes" type="830" open="0">
       <listitem id="u54MGVrO8bQGV" type="829" open="1"/>
       <listitem id="uE6nyjL2FE7Fd" type="829" open="1"/>
